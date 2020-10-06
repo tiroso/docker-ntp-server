@@ -1,3 +1,8 @@
+
+
+docker run -d --restart always --name ntp --cap-add SYS_TIME -p 123:123/udp tiroso/ntp-server
+
+
 # NTP 서버 for docker container
 
 이 컨테이너는 NTP 서비스를 구성합니다.
