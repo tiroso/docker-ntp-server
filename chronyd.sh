@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pidfile="/var/run/chronyd.pid"
+pidfile="/var/run/chrony/chronyd.pid"
 
 if [ -f "$pidfile" ]
 then
